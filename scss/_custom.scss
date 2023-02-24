@@ -1,0 +1,16 @@
+//THEME COLORS
+$purple-dark:  #03001C;
+$purple-light: #301e67;
+$light-blue:  #5B8FB9;
+$aqua-green: rgb(182, 234, 218);
+$font-color: #fff;
+
+
+$primary: $purple-dark;
+$secondary: $purple-light;
+$tertiary:$light-blue;
+
+
+
+// IMPORT BOOTSTRAP
+@import "../node_modules/bootstrap/scss/bootstrap.scss"

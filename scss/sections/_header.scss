@@ -1,0 +1,91 @@
+@use '../components/animations' as *;
+@use '../custom' as *;
+.main-header{
+    background-color: $primary;
+    width: 100%;
+    height: 100%;
+}
+.animation-container{
+    &__elements{
+        width: 100%;
+        height: 50%;
+        & div{
+            width: 30px;
+            height: 30px;
+            border: 1px solid #B6EADA;
+            position: absolute;
+            opacity: 30%;
+            &:nth-child(1){
+                top: 20%;
+                left: 40%;
+                animation: square 5s linear infinite;
+            }
+            &:nth-child(2){
+                top: 10%;
+                left: 60%;
+                animation: square 7s linear infinite;
+            }
+            &:nth-child(3){
+                top: 60%;
+                left: 10%;
+                animation: square 9s linear infinite;
+            }
+            &:nth-child(4){
+                top: 50%;
+                left: 40%;
+                animation: square 11s linear infinite;
+            }
+            &:nth-child(5){
+                top: 40%;
+                left: 60%;
+                animation: square 7s linear infinite;
+            }
+            &:nth-child(6){
+                top: 80%;
+                left: 30%;
+                animation: square 13s linear infinite;
+            }
+            &:nth-child(7){
+                top: 10%;
+                left: 10%;
+                animation: square 12s linear infinite;
+            }
+            &:nth-child(8){
+                top: 20%;
+                left: 85%;
+                animation: square 8s linear infinite;
+            }
+            &:nth-child(9){
+                top: 75%;
+                left: 65%;
+                animation: square 9s linear infinite;
+            }
+            &:nth-child(10){
+                top: 80%;
+                left: 85%;
+                animation: square 7s linear infinite;
+            }
+        }
+    }
+}
+.greetings{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    margin: 20px auto;
+    // padding-top: 50px;
+    &__text{
+        padding: 10px;
+        & h1{
+            font-size: 100px;
+        }
+    }
+    @media (min-width:728px) {
+        margin: 280px auto;
+
+    }
+}

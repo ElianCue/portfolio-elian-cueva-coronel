@@ -1,0 +1,19 @@
+@use 'custom' as bootstrap;
+
+// Components
+
+@use 'components/animations';
+@use 'components/buttons';
+@use 'components/mixins';
+@use 'components/typography';
+
+
+// SECTIONS
+@use 'sections/about-me';
+@use 'sections/header';
+@use 'sections/contact';
+@use 'sections/footer';
+@use 'sections/timeline';
+@use 'sections/portfolio';
+@use 'sections/navbar';
+@use 'sections/skills.scss';

@@ -1,0 +1,30 @@
+@use '../custom' as *;
+.my-proyects-section{
+    margin-top: 50px;
+    & h2{
+        text-align: center;
+        color: $font-color;
+        font-weight: bold;
+    }
+    .my-proyects{
+        .card:hover{
+            transform: scale(1.1);
+            transition: all 0.7s;
+        }
+        color: $font-color;
+        & .card-body{
+            & i{
+                font-size: 30px;
+                margin-right: 10px;
+                &:hover{
+                    transition: all 1s;
+                    transform: scale(0.75);
+                }
+            }
+            & h3{
+                font-size: 18px;
+            }
+        }
+    }
+
+}

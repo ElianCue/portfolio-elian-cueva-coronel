@@ -1,0 +1,9 @@
+.menu{
+    & li{
+        padding: 10px 15px;
+        & a{
+            text-transform: capitalize;
+            font-weight: 600;
+        } 
+    }
+}

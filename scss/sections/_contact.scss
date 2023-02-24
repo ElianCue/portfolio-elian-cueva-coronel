@@ -1,0 +1,31 @@
+.contact-me{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 800;
+    color: white;
+    &__text{
+        text-align: center;
+
+    }
+    &__smedias{
+        display: flex;
+        justify-content: space-between;
+        
+        &--s{
+            & a>i{
+                color: white;
+            }
+            font-size: 80px;
+            color: white;
+            margin: 10px;
+            &:hover{
+                transform: scale(0.90);
+                transition: all 0.7s;
+                cursor: pointer;
+            }
+        }
+    }
+}
